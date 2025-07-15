@@ -11,7 +11,10 @@
 *::-webkit-scrollbar-track {
     border-radius: 8px;
 }
-
+.textchange{
+    font-size: 28px;
+    color: white;
+}
 *::-webkit-scrollbar-thumb {
     
     border-radius: 8px;
@@ -33,6 +36,9 @@
 @media screen and (max-width:700px) {
     *::-webkit-scrollbar{
         display: none;
+    }
+    .textchange{
+            display: none;
     }
 }
 body {
@@ -102,10 +108,7 @@ code {
 .custom-h {
     height: auto !important;
 }
-.textchange{
-    font-size: 28px;
-    color: white;
-}
+
 @media screen and (min-width: 1024px) {
     .custom-h {
         height: 100vh !important;
